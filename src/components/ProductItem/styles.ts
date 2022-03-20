@@ -1,12 +1,7 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
-export const ProductList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  list-style: none;
-  li{
+export const Product = styled.li`
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -64,6 +59,5 @@ export const ProductList = styled.ul`
         font-weight: bold;
       }
     }
-  }
- 
+  
 `;
